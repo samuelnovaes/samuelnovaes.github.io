@@ -78,7 +78,6 @@ export default {
 			{
 				title: 'Play Torrent',
 				desc: 'Aplicativo desktop para streamming de vídeo e audio em torrent.',
-				site: 'http://play-torrent.ml',
 				git: 'https://github.com/samuelnovaes/play-torrent',
 				members: ['samuel', 'eduardo'],
 				tags: ['Desktop', 'Audio', 'Video']
