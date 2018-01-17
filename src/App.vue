@@ -22,9 +22,7 @@
 			</v-toolbar-items>
 		</v-toolbar>
 		<v-content>
-			<v-container fluid>
-				<router-view></router-view>
-			</v-container>
+			<router-view></router-view>
 		</v-content>
 		<v-bottom-sheet v-model="drawer">
 			<v-list>
@@ -42,8 +40,12 @@
 				</v-list-tile>
 			</v-list>
 		</v-bottom-sheet>
-	</v-list>
-</v-app>
+		<v-footer color="secondary" dark>
+			<v-spacer></v-spacer>
+			&copy; Samuel Novaes {{year}}
+			<v-spacer></v-spacer>
+		</v-footer>
+	</v-app>
 </template>
 
 <script>
@@ -55,6 +57,9 @@ export default {
 	computed: {
 		width(){
 			return innerWidth
+		},
+		year(){
+			return new Date().getFullYear()
 		}
 	}
 }

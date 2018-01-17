@@ -13,7 +13,8 @@ Vue.use(VueRouter)
 
 Vue.use(Vuetify, {
 	theme: {
-		primary: '#008888'
+		primary: '#008888',
+		secondary: '#004040'
 	}
 })
 

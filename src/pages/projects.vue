@@ -22,7 +22,7 @@
 						</p>
 						<v-divider></v-divider><br>
 						<v-btn outline color="primary" v-if="project.git" :href="project.git" target="_blank">
-							<v-icon>mdi-git</v-icon>
+							<v-icon>mdi-github-circle</v-icon>
 						</v-btn>
 						<v-btn outline color="primary" v-if="project.site" :href="project.site" target="_blank">
 							<v-icon>mdi-web</v-icon>

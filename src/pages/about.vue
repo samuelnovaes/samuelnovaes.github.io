@@ -3,8 +3,8 @@
 		<v-card raised>
 			<v-layout row wrap>
 				<v-flex xs12 sm4 md3 lg2>
-					<v-card-media src="/public/img/avatar.jpg" height="100%" class="hidden-xs-only"></v-card-media>
-					<v-card-media src="/public/img/avatar.jpg" height="200px" class="hidden-sm-and-up"></v-card-media>
+					<v-card-media src="/public/img/avatar2.jpg" height="100%" class="hidden-xs-only"></v-card-media>
+					<v-card-media src="/public/img/avatar2.jpg" height="200px" class="hidden-sm-and-up"></v-card-media>
 				</v-flex>
 				<v-flex xs12 sm8 md9 lg10>
 					<v-card-title>
@@ -19,6 +19,12 @@
 									<v-icon>mdi-facebook</v-icon>
 								</v-list-tile-avatar>
 								<v-list-tile-title>Facebook</v-list-tile-title>
+							</v-list-tile>
+							<v-list-tile :href="social.linkedin" target="_blank">
+								<v-list-tile-avatar>
+									<v-icon>mdi-linkedin</v-icon>
+								</v-list-tile-avatar>
+								<v-list-tile-title>Linkedin</v-list-tile-title>
 							</v-list-tile>
 							<v-list-tile :href="social.github" target="_blank">
 								<v-list-tile-avatar>
@@ -59,7 +65,8 @@
 				facebook: 'https://www.facebook.com/samuel.n.sena',
 				github: 'https://github.com/samuelnovaes',
 				email: 'samuel.novaes.96@gmail.com',
-				phone: '(61) 3540-1566'
+				phone: '(61) 3540-1566',
+				linkedin: 'https://www.linkedin.com/in/samuel-novaes-751216122/'
 			}
 		})
 	}
