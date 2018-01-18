@@ -28,7 +28,7 @@
 <script>
 export default {
 	data: () => ({
-		cv: '/public/pdf/cv.pdf',
+		cv: '/public/doc/cv.pdf',
 		lattes: 'http://lattes.cnpq.br/6279453397485729',
 		sections: [
 			{
