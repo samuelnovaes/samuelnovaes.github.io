@@ -40,7 +40,7 @@
 							</v-list-tile>
 							<v-list-tile :href="`tel://${social.phone}`">
 								<v-list-tile-avatar>
-									<v-icon>mdi-phone</v-icon>
+									<v-icon>mdi-whatsapp</v-icon>
 								</v-list-tile-avatar>
 								<v-list-tile-title>{{social.phone}}</v-list-tile-title>
 							</v-list-tile>
@@ -65,7 +65,7 @@
 				facebook: 'https://www.facebook.com/samuel.n.sena',
 				github: 'https://github.com/samuelnovaes',
 				email: 'samuel.novaes.96@gmail.com',
-				phone: '(61) 3540-1566',
+				phone: '(61) 98341-4184',
 				linkedin: 'https://www.linkedin.com/in/samuel-novaes-751216122/'
 			}
 		})

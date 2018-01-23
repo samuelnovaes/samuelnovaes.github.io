@@ -40,7 +40,7 @@
 				</v-list-tile>
 			</v-list>
 		</v-bottom-sheet>
-		<v-footer color="secondary">
+		<v-footer>
 			<v-spacer></v-spacer>
 			&copy; Samuel Novaes {{year}}
 			<v-spacer></v-spacer>

@@ -12,7 +12,7 @@
 						<p>
 							<b>Integrantes</b>
 							<v-list>
-								<v-list-tile v-for="(member, i) in project.members" :key="i" ripple :href="members[member].link">
+								<v-list-tile v-for="(member, i) in project.members" :key="i" ripple :href="members[member].link" target="_blank">
 									<v-list-tile-avatar>
 										<img :src="members[member].avatar">
 									</v-list-tile-avatar>
@@ -69,6 +69,14 @@ export default {
 				tags: ['Web', 'Vue', 'JavaScript']
 			},
 			{
+				title: 'Labkids',
+				desc: 'Site do Grupo de pesquisa LabKids, grupo que objetiva o ensino de Ciencia da Computação, Robótica e Fisica. (Dev in progress)',
+				git: 'https://github.com/samuelnovaes/labkids',
+				site: 'http://labkids.bsb.br/',
+				members: ['samuel', 'ximenes'],
+				tags: ['Web', 'JavaScript']
+			},
+			{
 				title: 'Megaloft',
 				desc: 'Site desenvolvido para o compartilhamento fácil de arquivos dentro do Instituto Federal de Brasilia.',
 				site: 'http://megaloft.net',
@@ -81,7 +89,7 @@ export default {
 				git: 'https://github.com/samuelnovaes/play-torrent',
 				members: ['samuel', 'eduardo'],
 				tags: ['Desktop', 'Audio', 'Video']
-			},
+			}
 		]
 	})
 }
