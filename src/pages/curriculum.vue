@@ -102,6 +102,10 @@ export default {
 						desc: 'TIM Tec | 2016'
 					},
 					{
+						name: 'Lógica de Programação',
+						desc: 'Softblue | 2017'
+					},
+					{
 						name: 'Competências Empreendedoras',
 						desc: 'IFES | 2017 - Agora'
 					}

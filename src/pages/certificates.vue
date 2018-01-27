@@ -86,6 +86,10 @@
 				{
 					name: 'Computação Gráfica - SAGA',
 					file: '/public/doc/certificates/saga.jpg'
+				},
+				{
+					name: 'Curso Lógica de Programação - Softblue',
+					file: '/public/doc/certificates/logica-softblue.pdf'
 				}
 			]
 		})
