@@ -71,7 +71,6 @@ export default {
 			{
 				title: 'Labkids',
 				desc: 'Site do Grupo de pesquisa LabKids, grupo que objetiva o ensino de Ciencia da Computação, Robótica e Fisica. (Dev in progress)',
-				git: 'https://github.com/samuelnovaes/labkids',
 				site: 'http://labkids.bsb.br/',
 				members: ['samuel', 'ximenes'],
 				tags: ['Web', 'JavaScript']

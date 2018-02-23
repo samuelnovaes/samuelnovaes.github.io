@@ -10,7 +10,7 @@
 				</v-layout>
 			</v-container>
 		</v-jumbotron>
-		<v-toolbar color="primary" dark class="elevation-0">
+		<v-toolbar color="primary" dark class="elevation-0" ref="toolbar" :fixed="offsetTop >= 372" v-scroll="onScroll">
 			<v-toolbar-side-icon class="hidden-sm-and-up" @click="drawer = !drawer"></v-toolbar-side-icon>
 			<v-toolbar-title>{{$route.name}}</v-toolbar-title>
 			<v-spacer></v-spacer>
@@ -40,7 +40,7 @@
 				</v-list-tile>
 			</v-list>
 		</v-bottom-sheet>
-		<v-footer>
+		<v-footer color="secondary">
 			<v-spacer></v-spacer>
 			&copy; Samuel Novaes {{year}}
 			<v-spacer></v-spacer>
@@ -51,9 +51,15 @@
 <script>
 export default {
 	data: () => ({
+		offsetTop: 0,
 		drawer: false,
 		name: 'Samuel Novaes'
 	}),
+	methods: {
+		onScroll(e){
+			this.offsetTop = window.pageYOffset || document.documentElement.scrollTop
+		}
+	},
 	computed: {
 		width(){
 			return innerWidth

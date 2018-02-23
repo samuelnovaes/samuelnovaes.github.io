@@ -16,6 +16,10 @@
 		data: () => ({
 			certificates: [
 				{
+					name: 'Campus Party Brasil 2018 - Campus Future',
+					file: '/public/doc/certificates/cpbr2018.pdf'
+				},
+				{
 					name: 'Campus Party Brasília 2017',
 					file: '/public/doc/certificates/cpbsb2017.pdf'
 				},

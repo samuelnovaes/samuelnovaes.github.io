@@ -3,6 +3,7 @@ import App from './App.vue'
 import Vuetify from 'vuetify'
 import VueRouter from 'vue-router'
 import routes from './routes.js'
+import colors from 'vuetify/es5/util/colors'
 import 'vuetify/dist/vuetify.css'
 
 let router = new VueRouter({
@@ -13,7 +14,8 @@ Vue.use(VueRouter)
 
 Vue.use(Vuetify, {
 	theme: {
-		primary: '#008888'
+		primary: colors.cyan.darken4,
+		secondary: colors.blueGrey.lighten3
 	}
 })
 
