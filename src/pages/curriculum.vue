@@ -36,7 +36,7 @@ export default {
 				items: [
 					{
 						name: 'Linguagens/Plataformas/Frameworks',
-						desc: 'HTML, CSS, JavaScript, Web Design Responsivo, Node.js, Express, Cordova, Electron, Vue.js, Vuetify, PHP, Bash, SQL'
+						desc: 'HTML, CSS, JavaScript, Web Design Responsivo, Node.js, Express, Cordova, Electron, Vue.js, Vuetify, Bash, SQL'
 					},
 					{
 						name: 'Sistemas Operacionais',
