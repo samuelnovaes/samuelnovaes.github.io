@@ -42,7 +42,7 @@
 		</v-bottom-sheet>
 		<v-footer color="secondary">
 			<v-spacer></v-spacer>
-			&copy; Samuel Novaes {{year}}
+			&copy; {{name}} {{year}}
 			<v-spacer></v-spacer>
 		</v-footer>
 	</v-app>
