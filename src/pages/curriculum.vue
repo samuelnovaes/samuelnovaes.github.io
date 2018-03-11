@@ -5,7 +5,7 @@
 				<v-btn outline color="primary" :href="cv" target="_blank"><v-icon>mdi-download</v-icon> PDF</v-btn>
 				<v-btn outline color="primary" :href="lattes" target="_blank">Lattes</v-btn>
 			</v-flex>
-			<v-flex xs12 sm6 md4 lg3 d-flex v-for="(section, i) in sections" :key="i">
+			<v-flex xs12 sm6 md4 lg3 v-for="(section, i) in sections" :key="i">
 				<v-card raised>
 					<v-card-title>
 						<div class="headline">{{section.title}}</div>
