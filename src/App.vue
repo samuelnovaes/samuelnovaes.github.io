@@ -3,16 +3,15 @@
 		<v-jumbotron height="auto" src="/public/img/cover.jpg" gradient="to top, rgba(0, 0, 0, .7), rgba(0, 128, 128, .7)" dark>
 			<v-container fill-height>
 				<v-layout column align-center>
-					<v-avatar size="200px" class="mt-5 mb-1">
+					<v-avatar size="200px" class="mt-5 mb-5">
 						<img src="/public/img/avatar.jpg">
 					</v-avatar>
-					<div class="display-1 mb-5">{{name}}</div>
 				</v-layout>
 			</v-container>
 		</v-jumbotron>
-		<v-toolbar color="primary" dark class="elevation-0" ref="toolbar" :fixed="offsetTop >= 372" v-scroll="onScroll">
+		<v-toolbar color="primary" dark class="elevation-0" ref="toolbar" :fixed="offsetTop >= 328" v-scroll="onScroll">
 			<v-toolbar-side-icon class="hidden-sm-and-up" @click="drawer = !drawer"></v-toolbar-side-icon>
-			<v-toolbar-title>{{$route.name}}</v-toolbar-title>
+			<v-toolbar-title>{{name}}</v-toolbar-title>
 			<v-spacer></v-spacer>
 			<v-toolbar-items class="hidden-xs-only">
 				<v-btn flat to="/about">Sobre</v-btn>
@@ -22,7 +21,9 @@
 			</v-toolbar-items>
 		</v-toolbar>
 		<v-content>
-			<router-view></router-view>
+			<transition name="fade">
+				<router-view></router-view>
+			</transition>
 		</v-content>
 		<v-bottom-sheet v-model="drawer">
 			<v-list>
@@ -48,12 +49,21 @@
 	</v-app>
 </template>
 
+<style scoped>
+.fade-enter-active, .fade-leave-active {
+	transition: opacity .3s;
+}
+.fade-enter, .fade-leave-to {
+	opacity: 0;
+}
+</style>
+
 <script>
 export default {
 	data: () => ({
 		offsetTop: 0,
 		drawer: false,
-		name: 'Samuel Novaes'
+		name: 'SAMUEL NOVAES'
 	}),
 	methods: {
 		onScroll(e){

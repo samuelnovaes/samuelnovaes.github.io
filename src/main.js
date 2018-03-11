@@ -15,7 +15,7 @@ Vue.use(VueRouter)
 Vue.use(Vuetify, {
 	theme: {
 		primary: colors.cyan.darken4,
-		secondary: colors.blueGrey.lighten3
+		secondary: colors.grey.lighten3
 	}
 })
 

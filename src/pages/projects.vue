@@ -1,7 +1,7 @@
 <template>
 	<v-container fluid grid-list-lg>
 		<v-layout row wrap>
-			<v-flex xs12 sm6 md4 lg3 v-for="(project, i) in projects" :key="i">
+			<v-flex xs12 sm6 md4 lg3 d-flex v-for="(project, i) in projects" :key="i">
 				<v-card raised>
 					<v-card-title>
 						<div class="headline">{{project.title}}</div>
