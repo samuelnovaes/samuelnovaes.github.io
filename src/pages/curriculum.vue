@@ -53,7 +53,7 @@ export default {
 				]
 			},
 			{
-				title: 'Experiências proficionais',
+				title: 'Experiências Profissionais',
 				items: [
 					{
 						name: 'Desenvolvedor Web',
