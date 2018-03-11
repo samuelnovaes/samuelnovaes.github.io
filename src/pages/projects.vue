@@ -74,6 +74,7 @@ export default {
 			{
 				title: 'Labkids',
 				desc: 'Site do Grupo de pesquisa LabKids, grupo que objetiva o ensino de Ciencia da Computação, Robótica e Fisica. (Dev in progress)',
+				git: false,
 				site: 'http://labkids.bsb.br/',
 				members: ['samuel', 'ximenes'],
 				tags: ['Web', 'JavaScript']
@@ -81,6 +82,7 @@ export default {
 			{
 				title: 'Megaloft',
 				desc: 'Site desenvolvido para o compartilhamento fácil de arquivos dentro do Instituto Federal de Brasilia.',
+				git: false,
 				site: 'http://megaloft.net',
 				members: ['samuel'],
 				tags: ['Web', 'Cloud']
@@ -89,6 +91,7 @@ export default {
 				title: 'Play Torrent',
 				desc: 'Aplicativo desktop para streamming de vídeo e audio em torrent.',
 				git: 'https://github.com/samuelnovaes/play-torrent',
+				site: false,
 				members: ['samuel', 'eduardo'],
 				tags: ['Desktop', 'Audio', 'Video']
 			}
