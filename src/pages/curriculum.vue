@@ -36,15 +36,15 @@ export default {
 				items: [
 					{
 						name: 'Linguagens/Plataformas/Frameworks',
-						desc: 'HTML, CSS, JavaScript, Web Design Responsivo, Node.js, Express, Cordova, Electron, Vue.js, Vuetify, Bash, SQL'
+						desc: 'HTML, CSS, JavaScript, Web Design Responsivo, Node.js, Express, Cordova, Electron, Vue.js, Vuetify, Bash, SQL, Telegram Bots'
 					},
 					{
 						name: 'Sistemas Operacionais',
 						desc: 'Windows, Linux'
 					},
 					{
-						name: 'SGBDs',
-						desc: 'MySQL, PostgreSQL, SQLite, RethinkDB, NanoSQL'
+						name: 'Banco de Dados',
+						desc: 'MySQL, PostgreSQL, SQLite, RethinkDB, MongoDB'
 					},
 					{
 						name: 'IoT',
@@ -58,6 +58,10 @@ export default {
 					{
 						name: 'Desenvolvedor Web',
 						desc: 'TSD Tecnologia | 2015 - 2015'
+					},
+					{
+						name: 'Serviçoes Autônomos (Freelancer)',
+						desc: 'Home Office | 2015 - Agora'
 					}
 				]
 			},
@@ -108,6 +112,10 @@ export default {
 					{
 						name: 'Competências Empreendedoras',
 						desc: 'IFES | 2017 - Agora'
+					},
+					{
+						name: 'Bolsas de Iniciação em Desenvolvimento Tecnológico e Inovação',
+						desc: 'CNPQ | 2017 - Agora'
 					}
 				]
 			},

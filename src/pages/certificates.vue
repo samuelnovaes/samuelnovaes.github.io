@@ -16,6 +16,10 @@
 		data: () => ({
 			certificates: [
 				{
+					name: '1ª Semana de Ciência e Tecnologia - IFB',
+					file: '/public/doc/certificates/sct1.pdf'
+				},
+				{
 					name: 'Campus Party Brasil 2018 - Campus Future',
 					file: '/public/doc/certificates/cpbr2018.pdf'
 				},
