@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/samuelnovaes
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://samuelnovaes.ml
+  * I am samuelnovaes (https://keybase.io/samuelnovaes) on keybase.
+  * I have a public key ASCt64RNxx6x1YN70vPZMdkQYI_aiXc177EHN8UkECNYBwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204c0fb162d4ead84d78cee0cb8761bbbd2a6d6a3a32f3b5d0e2eaacda3a888b030a",
+      "host": "keybase.io",
+      "kid": "0120adeb844dc71eb1d5837bd2f3d931d910608fda897735efb10737c524102358070a",
+      "uid": "fbbcb45af164f99c5ea8d35d83d23a19",
+      "username": "samuelnovaes"
+    },
+    "merkle_root": {
+      "ctime": 1524872470,
+      "hash": "f88b2688caaf75c6ead53362f70a807934abd46203b0a884b92db640471817c24f31c5360eb6ab4112aabb3da4540719eaf38cfbd29b159c527887881324ec69",
+      "hash_meta": "5938f01df6a06c23ae213b0cb8d7abc7963a8431284864734fdf9c8d74a99527",
+      "seqno": 2452365
+    },
+    "service": {
+      "entropy": "C43VxpBLdq7KlyLWdUMyZoMr",
+      "hostname": "samuelnovaes.ml",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1524872520,
+  "expire_in": 504576000,
+  "prev": "4ea2850d2fbfb74781821bf7966c1a197114dbb4bc08444d5b0ce95e133fbcb1",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgreuETccesdWDe9Lz2THZEGCP2ol3Ne+xBzfFJBAjWAcKp3BheWxvYWTESpcCCcQgTqKFDS+/t0eBghv3lmwaGXEU27S8CERNWwzpXhM/vLHEIAvvfPU5WwazLZEwce31EG+TxUhJFutWlwOri1Gd8HHOAgHCo3NpZ8RAoM8k6y95jPLAhB1fQUoNqHI/s6/x7o0UyTQKJgLMOD1DGvMpVvPe5x/fr3dwkHc8WKHvFci9U8ZTWUxc2GpKDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEII9dLcRUgR8+8yD3XqxJjT9YiHAK3smIExSXA/b31MSko3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/samuelnovaes
+
+==================================================================
