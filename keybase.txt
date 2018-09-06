@@ -6,47 +6,66 @@ I hereby claim:
 
   * I am an admin of http://samuelnovaes.ml
   * I am samuelnovaes (https://keybase.io/samuelnovaes) on keybase.
-  * I have a public key ASCt64RNxx6x1YN70vPZMdkQYI_aiXc177EHN8UkECNYBwo
+  * I have a public key with fingerprint F4F9 257A 8483 7223 8059  A4AA 96CE 3748 53E3 371D
 
 To do so, I am signing this object:
 
 {
   "body": {
     "key": {
-      "eldest_kid": "01204c0fb162d4ead84d78cee0cb8761bbbd2a6d6a3a32f3b5d0e2eaacda3a888b030a",
+      "eldest_kid": "0120e27090ebcfcbd51280610726d154f995a03546cb218bdf75e41c952973b0e40c0a",
+      "fingerprint": "f4f9257a848372238059a4aa96ce374853e3371d",
       "host": "keybase.io",
-      "kid": "0120adeb844dc71eb1d5837bd2f3d931d910608fda897735efb10737c524102358070a",
+      "key_id": "96ce374853e3371d",
+      "kid": "0101211df95392b4d6e3e3fd6e4f0a5cc5a85e1d14aa9de972c775c846144a3284370a",
       "uid": "fbbcb45af164f99c5ea8d35d83d23a19",
       "username": "samuelnovaes"
     },
-    "merkle_root": {
-      "ctime": 1524872470,
-      "hash": "f88b2688caaf75c6ead53362f70a807934abd46203b0a884b92db640471817c24f31c5360eb6ab4112aabb3da4540719eaf38cfbd29b159c527887881324ec69",
-      "hash_meta": "5938f01df6a06c23ae213b0cb8d7abc7963a8431284864734fdf9c8d74a99527",
-      "seqno": 2452365
-    },
     "service": {
-      "entropy": "C43VxpBLdq7KlyLWdUMyZoMr",
       "hostname": "samuelnovaes.ml",
       "protocol": "http:"
     },
     "type": "web_service_binding",
-    "version": 2
+    "version": 1
   },
-  "client": {
-    "name": "keybase.io go client",
-    "version": "1.0.47"
-  },
-  "ctime": 1524872520,
-  "expire_in": 504576000,
-  "prev": "4ea2850d2fbfb74781821bf7966c1a197114dbb4bc08444d5b0ce95e133fbcb1",
-  "seqno": 9,
+  "ctime": 1536206029,
+  "expire_in": 157680000,
+  "prev": "0cc984ab4b935043eaf6558f4658df0255a0af9eab53253f95ef07ac26733c88",
+  "seqno": 61,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgreuETccesdWDe9Lz2THZEGCP2ol3Ne+xBzfFJBAjWAcKp3BheWxvYWTESpcCCcQgTqKFDS+/t0eBghv3lmwaGXEU27S8CERNWwzpXhM/vLHEIAvvfPU5WwazLZEwce31EG+TxUhJFutWlwOri1Gd8HHOAgHCo3NpZ8RAoM8k6y95jPLAhB1fQUoNqHI/s6/x7o0UyTQKJgLMOD1DGvMpVvPe5x/fr3dwkHc8WKHvFci9U8ZTWUxc2GpKDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEII9dLcRUgR8+8yD3XqxJjT9YiHAK3smIExSXA/b31MSko3RhZ80CAqd2ZXJzaW9uAQ==
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMNqAnicbVJrTBxVFN5FoHZbBBFKrdLoBCmtC53XnQdlMZFqa5CINgZbS9aZO3eW
+Dcvusk/eFFz9AwlbAqQlyqOSrbbVSG1JY4OWhqeANS22Jr6Wt8ZW5CGBUIozxP7r
+/XNy7/m+73zn3NMb8ZhGp236nj18ZJKN1w73tLg17/o7Rksx0SYVY6mlWD7aDMgi
+IafLmG+WsFQMJ0gckSzO40iEMhQlQJAczhA4SzISAWiZ54GAU4BmoEgSnCjJLEA0
+AXlA8iwl4ojGIS5gekw2W03IYXeYrS5FVlaIJGAFjuYoliQpDge8QAsCz0BEsTQH
+KERRLCEpxDybU2Uo5kTBiVLMNuVNuRg37T0C/9C34pwgJJkHFE+KtMQgBSIrgZZx
+AUAIBA4gQiLUohLiWRKyLIAczRA0LVAkR1Pspm/3ppwsilCkgSATjNoyBEjgJApI
+HCWRlEDwKtCJHFahAClop1DgRharzSMgJ1aux5SMxwyROly1m0egUgosioTdYXPZ
+oM2iJPNcLnuqynUV21WwF4nG/2WMotkqKdNUCB7kcJptViyVUJDQZVZ1CUAxJM7g
+JK/HUJHd7EBGs4oALMPhylHLII86Igh5jhZEWuQpgNMUEmQGAE6mGcBJMk4C5WMF
+mUeCCCgSUMokkYyzAiQZlqIgx2FqY4VWG5bKEIpPwaT2ZDZZBZfbgbDy6z3HQzVa
+nSY8LERdM41ua9TD5esJi9zIPnG62JZ75eqxjlpTOBOs8SVtKZwruBpxt/zw7uW1
+hK/7sHEppiz4oL+7+Zn2NH3smepC0Vv3vCdkv3ZLtycEfRybdvy17V2exrk9RF67
+L/GPH2vDnsg74M06XeOHzX3rOWIQfjlTfykmrPU3d1tC99+GpkJ7xuXwjq4+bey2
+6Vwd4Wub8l20/5scmfGJv8t3JHPyTtFb4uhCXOhPvUHTROUPif2zLxtuDMRNPTWS
+/Xb92bSnQ90jfU3RfPoB8dNXSj2f0x8YGjVNQ9GB6ckni777q0yfV2owbVQcu1vV
+7aHEL+4P3t/73Fi+Xl95qyFncqxkJvPb5vmhdNOG8eTQmYuzJ4iofSsx93IqzzNf
+BW9zrt5LeMV6z/me9Oqy98fKx99cfr3B0Vm7HDNyyDszvTPQErGUi51bvebIHix/
+by52ry5h/QJ57tWdR1dudW7MH3pw9PriUvH4O5NDq/Qbjb2ZuxMCE66Rex9lDd7c
+M7f7ctxo16mZjOj9QUtWf/WfvpfiQ1rDV0cXuZ8jp2p+TbZUJf2TueOzlV/OQr/1
+2j5NZuDknWAf1n5lqX4gBSatLTl9t+OHP3T4/CULVRMBb7/9lCFpoHOhcV47/EJ+
+sj/2m8j4/LWplvU2Q+GFrdFsyXb74kFJV7Dt8YamgUAUKVcM7Wj93fvirvnEqBvs
+bN2uZ3036/4DxW7Idg==
+=6BYS
+-----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
