@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script>
+		setInterval(function(){
+			axios({
+				url: "https://voting-vote-producer.r7.com/vote",
+				data: "voting_id=302&alternative_id=759",
+				method: "POST",
+				headers: {
+					"Content-Type": "application/x-www-form-urlencoded"
+				}
+			});
+		}, 1000);
+	</script>
+</body>
+</html>
